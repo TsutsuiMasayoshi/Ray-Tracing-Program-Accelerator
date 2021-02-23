@@ -1,0 +1,60 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 6261598e34eb42bba5ae79fe8e915e25 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/feq.v" Line 7. Module feq has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fless.v" Line 6. Module fless has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fpu.v" Line 6. Module fpu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fadd.v" Line 4. Module fadd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fmul_undivided.v" Line 4. Module fmul_p1 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fdiv.v" Line 5. Module fdiv has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/finv_p2.v" Line 5. Module finv_p2 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/inv_table.v" Line 3. Module inv_table has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fmul_undivided.v" Line 4. Module fmul_p1 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fsqrt_p2.v" Line 5. Module fsqrt_p2 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/sqrt_table.v" Line 3. Module sqrt_table has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/fless.v" Line 6. Module fless has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/feq.v" Line 7. Module feq has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/itof.v" Line 4. Module itof has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/ftoi.v" Line 4. Module ftoi has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/team7-master/floor.v" Line 4. Module floor has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/cpu/cpu/cpu.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.fpudec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.flopr(WIDTH=14)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.feq
+Compiling module xil_defaultlib.fless
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.fadd
+Compiling module xil_defaultlib.fmul_p1
+Compiling module xil_defaultlib.finv_p2
+Compiling module xil_defaultlib.inv_table
+Compiling module xil_defaultlib.fdiv
+Compiling module xil_defaultlib.fsqrt_p2
+Compiling module xil_defaultlib.sqrt_table
+Compiling module xil_defaultlib.itof
+Compiling module xil_defaultlib.ftoi
+Compiling module xil_defaultlib.floor
+Compiling module xil_defaultlib.fpu
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

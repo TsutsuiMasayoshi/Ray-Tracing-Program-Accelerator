@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../cpu.srcs/sources_1/bd/design_1/ipshared/4fba" \
+"../../../../team7-master/fadd.v" \
+"../../../../team7-master/fdiv.v" \
+"../../../../team7-master/feq.v" \
+"../../../../team7-master/finv_p2.v" \
+"../../../../team7-master/fless.v" \
+"../../../../team7-master/floor.v" \
+"../../../../team7-master/fmul_undivided.v" \
+"../../../../team7-master/fpu.v" \
+"../../../../team7-master/fsqrt_p2.v" \
+"../../../../team7-master/ftoi.v" \
+"../../../../team7-master/inv_table.v" \
+"../../../../team7-master/itof.v" \
+"../../../../team7-master/sqrt_table.v" \
+
+sv xil_defaultlib  --include "../../../../cpu.srcs/sources_1/bd/design_1/ipshared/4fba" \
+"../../../../alu.sv" \
+"../../../../aludec.sv" \
+"../../../../controller.sv" \
+"../../../../datapath.sv" \
+"../../../../dmem.sv" \
+"../../../../flopr.sv" \
+"../../../../fpudec.sv" \
+"../../../../hazard.sv" \
+"../../../../imem.sv" \
+"../../../../maindec.sv" \
+"../../../../mips.sv" \
+"../../../../mux2.sv" \
+"../../../../mux3.sv" \
+"../../../../regfile.sv" \
+"../../../../signext.sv" \
+"../../../../top.sv" \
+
+verilog xil_defaultlib  --include "../../../../cpu.srcs/sources_1/bd/design_1/ipshared/4fba" \
+"../../../../top_wrap.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

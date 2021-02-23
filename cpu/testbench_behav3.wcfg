@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1385001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="105" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dataadr" type="array">
+      <obj_property name="ElementShortName">dataadr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataadr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/initial_valid" type="array">
+      <obj_property name="ElementShortName">initial_valid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">initial_valid[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ansdata" type="array">
+      <obj_property name="ElementShortName">ansdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ansdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/recvdata" type="array">
+      <obj_property name="ElementShortName">recvdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">recvdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ansdata2" type="array">
+      <obj_property name="ElementShortName">ansdata2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ansdata2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/test_data" type="array">
+      <obj_property name="ElementShortName">test_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">test_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/count" type="array">
+      <obj_property name="ElementShortName">count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">count[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/valid2" type="logic">
+      <obj_property name="ElementShortName">valid2</obj_property>
+      <obj_property name="ObjectShortName">valid2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/recv_valid" type="logic">
+      <obj_property name="ElementShortName">recv_valid</obj_property>
+      <obj_property name="ObjectShortName">recv_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/sld_file" type="array">
+      <obj_property name="ElementShortName">sld_file[1000:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sld_file[1000:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/pc" type="array">
+      <obj_property name="ElementShortName">pc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/beforepc" type="array">
+      <obj_property name="ElementShortName">beforepc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">beforepc[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/readflag" type="logic">
+      <obj_property name="ElementShortName">readflag</obj_property>
+      <obj_property name="ObjectShortName">readflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/ra2" type="array">
+      <obj_property name="ElementShortName">ra2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ra2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/branchstall" type="logic">
+      <obj_property name="ElementShortName">branchstall</obj_property>
+      <obj_property name="ObjectShortName">branchstall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/branch" type="array">
+      <obj_property name="ElementShortName">branch[2:0]</obj_property>
+      <obj_property name="ObjectShortName">branch[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/readflag" type="array">
+      <obj_property name="ElementShortName">readflag[1:0]</obj_property>
+      <obj_property name="ObjectShortName">readflag[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/pc" type="array">
+      <obj_property name="ElementShortName">pc[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchd" type="array">
+      <obj_property name="ElementShortName">pcbranchd[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchd[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchd2" type="array">
+      <obj_property name="ElementShortName">pcbranchd2[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchd2[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchf_sub" type="array">
+      <obj_property name="ElementShortName">pcbranchf_sub[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchf_sub[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchf" type="array">
+      <obj_property name="ElementShortName">pcbranchf[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchf[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/instrd" type="array">
+      <obj_property name="ElementShortName">instrd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instrd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rd1d" type="array">
+      <obj_property name="ElementShortName">rd1d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd1d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rd2d" type="array">
+      <obj_property name="ElementShortName">rd2d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd2d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/y" type="array">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/pc" type="array">
+      <obj_property name="ElementShortName">pc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/beforepc" type="array">
+      <obj_property name="ElementShortName">beforepc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">beforepc[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/pcsrc" type="logic">
+      <obj_property name="ElementShortName">pcsrc</obj_property>
+      <obj_property name="ObjectShortName">pcsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/branch" type="array">
+      <obj_property name="ElementShortName">branch[2:0]</obj_property>
+      <obj_property name="ObjectShortName">branch[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/pc" type="array">
+      <obj_property name="ElementShortName">pc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/beforepc" type="array">
+      <obj_property name="ElementShortName">beforepc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">beforepc[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/branch" type="array">
+      <obj_property name="ElementShortName">branch[2:0]</obj_property>
+      <obj_property name="ObjectShortName">branch[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/pre_sub" type="array">
+      <obj_property name="ElementShortName">pre_sub[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pre_sub[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/bc/pre" type="logic">
+      <obj_property name="ElementShortName">pre</obj_property>
+      <obj_property name="ObjectShortName">pre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pc" type="array">
+      <obj_property name="ElementShortName">pc[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcplus4d" type="array">
+      <obj_property name="ElementShortName">pcplus4d[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4d[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcsrc" type="logic">
+      <obj_property name="ElementShortName">pcsrc</obj_property>
+      <obj_property name="ObjectShortName">pcsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/valid2" type="logic">
+      <obj_property name="ElementShortName">valid2</obj_property>
+      <obj_property name="ObjectShortName">valid2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchd2" type="array">
+      <obj_property name="ElementShortName">pcbranchd2[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchd2[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchd2" type="array">
+      <obj_property name="ElementShortName">pcbranchd2[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchd2[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchd" type="array">
+      <obj_property name="ElementShortName">pcbranchd[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchd[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/branchpredictd" type="logic">
+      <obj_property name="ElementShortName">branchpredictd</obj_property>
+      <obj_property name="ObjectShortName">branchpredictd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/branchpredictf" type="logic">
+      <obj_property name="ElementShortName">branchpredictf</obj_property>
+      <obj_property name="ObjectShortName">branchpredictf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchf" type="array">
+      <obj_property name="ElementShortName">pcbranchf[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchf[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchd" type="array">
+      <obj_property name="ElementShortName">pcbranchd[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchd[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchf" type="array">
+      <obj_property name="ElementShortName">pcbranchf[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchf[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcplus4f" type="array">
+      <obj_property name="ElementShortName">pcplus4f[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4f[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcreg/q" type="array">
+      <obj_property name="ElementShortName">q[29:0]</obj_property>
+      <obj_property name="ObjectShortName">q[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcreg/branchpredict" type="logic">
+      <obj_property name="ElementShortName">branchpredict</obj_property>
+      <obj_property name="ObjectShortName">branchpredict</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcreg/d" type="array">
+      <obj_property name="ElementShortName">d[29:0]</obj_property>
+      <obj_property name="ObjectShortName">d[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/branchpredictd" type="logic">
+      <obj_property name="ElementShortName">branchpredictd</obj_property>
+      <obj_property name="ObjectShortName">branchpredictd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcsrc" type="logic">
+      <obj_property name="ElementShortName">pcsrc</obj_property>
+      <obj_property name="ObjectShortName">pcsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/jump" type="array">
+      <obj_property name="ElementShortName">jump[1:0]</obj_property>
+      <obj_property name="ObjectShortName">jump[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchf" type="array">
+      <obj_property name="ElementShortName">pcbranchf[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchf[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchd" type="array">
+      <obj_property name="ElementShortName">pcbranchd[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchd[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcbranchf_sub" type="array">
+      <obj_property name="ElementShortName">pcbranchf_sub[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcbranchf_sub[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/signimmshd" type="array">
+      <obj_property name="ElementShortName">signimmshd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">signimmshd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcplus4f" type="array">
+      <obj_property name="ElementShortName">pcplus4f[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4f[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/pcplus4d" type="array">
+      <obj_property name="ElementShortName">pcplus4d[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4d[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/x" type="array">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/y" type="array">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/writerege" type="array">
+      <obj_property name="ElementShortName">writerege[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writerege[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/regwritee" type="array">
+      <obj_property name="ElementShortName">regwritee[1:0]</obj_property>
+      <obj_property name="ObjectShortName">regwritee[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf3flagd" type="array">
+      <obj_property name="ElementShortName">rf3flagd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rf3flagd[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf3flagw" type="array">
+      <obj_property name="ElementShortName">rf3flagw[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rf3flagw[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/c/md/rf3flag" type="array">
+      <obj_property name="ElementShortName">rf3flag[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rf3flag[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/rsd" type="array">
+      <obj_property name="ElementShortName">rsd[6:0]</obj_property>
+      <obj_property name="ObjectShortName">rsd[6:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/rtd" type="array">
+      <obj_property name="ElementShortName">rtd[6:0]</obj_property>
+      <obj_property name="ObjectShortName">rtd[6:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rd1" type="array">
+      <obj_property name="ElementShortName">rd1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rd1d" type="array">
+      <obj_property name="ElementShortName">rd1d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd1d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rd2" type="array">
+      <obj_property name="ElementShortName">rd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rd2d" type="array">
+      <obj_property name="ElementShortName">rd2d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd2d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/rf" type="array">
+      <obj_property name="ElementShortName">rf[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/rf2" type="array">
+      <obj_property name="ElementShortName">rf2[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf2[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/pc" type="array">
+      <obj_property name="ElementShortName">pc[29:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/pcsrc" type="logic">
+      <obj_property name="ElementShortName">pcsrc</obj_property>
+      <obj_property name="ObjectShortName">pcsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/c/sltid2" type="logic">
+      <obj_property name="ElementShortName">sltid2</obj_property>
+      <obj_property name="ObjectShortName">sltid2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/branch" type="array">
+      <obj_property name="ElementShortName">branch[2:0]</obj_property>
+      <obj_property name="ObjectShortName">branch[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/equalid" type="logic">
+      <obj_property name="ElementShortName">equalid</obj_property>
+      <obj_property name="ObjectShortName">equalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/c/op" type="array">
+      <obj_property name="ElementShortName">op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/c/funct" type="array">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/c/md/controls" type="array">
+      <obj_property name="ElementShortName">controls[29:0]</obj_property>
+      <obj_property name="ObjectShortName">controls[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/rf3flag" type="array">
+      <obj_property name="ElementShortName">rf3flag[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rf3flag[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/valid" type="array">
+      <obj_property name="ElementShortName">valid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">valid[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/aluresult" type="array">
+      <obj_property name="ElementShortName">aluresult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluresult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/oute" type="array">
+      <obj_property name="ElementShortName">oute[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oute[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/outw" type="array">
+      <obj_property name="ElementShortName">outw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outw[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/aorf" type="array">
+      <obj_property name="ElementShortName">aorf[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aorf[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/wd3" type="array">
+      <obj_property name="ElementShortName">wd3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wd3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/data" type="array">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/forwardad" type="array">
+      <obj_property name="ElementShortName">forwardad[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardad[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/forwardbd" type="array">
+      <obj_property name="ElementShortName">forwardbd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardbd[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/forwardae" type="array">
+      <obj_property name="ElementShortName">forwardae[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardae[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/hz/forwardbe" type="array">
+      <obj_property name="ElementShortName">forwardbe[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardbe[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mips/dp/rf/rf3" type="array">
+      <obj_property name="ElementShortName">rf3[63:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf3[63:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
